@@ -1,0 +1,20 @@
+.dl__navbar_links_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+     padding: 0 15rem; 
+}
+
+
+.dl__navbar_links_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 55px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
